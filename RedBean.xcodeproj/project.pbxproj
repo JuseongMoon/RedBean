@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6324367E2AEFC846007DDDC7 /* RedBeanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324367D2AEFC846007DDDC7 /* RedBeanApp.swift */; };
+		632436802AEFC846007DDDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324367F2AEFC846007DDDC7 /* ContentView.swift */; };
+		632436822AEFC846007DDDC7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632436812AEFC846007DDDC7 /* Item.swift */; };
+		632436842AEFC848007DDDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632436832AEFC848007DDDC7 /* Assets.xcassets */; };
+		632436872AEFC848007DDDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632436862AEFC848007DDDC7 /* Preview Assets.xcassets */; };
+		632436932AEFC848007DDDC7 /* RedBeanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632436922AEFC848007DDDC7 /* RedBeanTests.swift */; };
+		6324369D2AEFC848007DDDC7 /* RedBeanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324369C2AEFC848007DDDC7 /* RedBeanUITests.swift */; };
+		6324369F2AEFC848007DDDC7 /* RedBeanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324369E2AEFC848007DDDC7 /* RedBeanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6324368F2AEFC848007DDDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632436722AEFC846007DDDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632436792AEFC846007DDDC7;
+			remoteInfo = RedBean;
+		};
+		632436992AEFC848007DDDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632436722AEFC846007DDDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632436792AEFC846007DDDC7;
+			remoteInfo = RedBean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6324367A2AEFC846007DDDC7 /* RedBean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6324367D2AEFC846007DDDC7 /* RedBeanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanApp.swift; sourceTree = "<group>"; };
+		6324367F2AEFC846007DDDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		632436812AEFC846007DDDC7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		632436832AEFC848007DDDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632436862AEFC848007DDDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		632436882AEFC848007DDDC7 /* RedBean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedBean.entitlements; sourceTree = "<group>"; };
+		632436892AEFC848007DDDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6324368E2AEFC848007DDDC7 /* RedBeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632436922AEFC848007DDDC7 /* RedBeanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanTests.swift; sourceTree = "<group>"; };
+		632436982AEFC848007DDDC7 /* RedBeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6324369C2AEFC848007DDDC7 /* RedBeanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanUITests.swift; sourceTree = "<group>"; };
+		6324369E2AEFC848007DDDC7 /* RedBeanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632436772AEFC846007DDDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6324368B2AEFC848007DDDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632436952AEFC848007DDDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632436712AEFC846007DDDC7 = {
+			isa = PBXGroup;
+			children = (
+				6324367C2AEFC846007DDDC7 /* RedBean */,
+				632436912AEFC848007DDDC7 /* RedBeanTests */,
+				6324369B2AEFC848007DDDC7 /* RedBeanUITests */,
+				6324367B2AEFC846007DDDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6324367B2AEFC846007DDDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6324367A2AEFC846007DDDC7 /* RedBean.app */,
+				6324368E2AEFC848007DDDC7 /* RedBeanTests.xctest */,
+				632436982AEFC848007DDDC7 /* RedBeanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6324367C2AEFC846007DDDC7 /* RedBean */ = {
+			isa = PBXGroup;
+			children = (
+				6324367D2AEFC846007DDDC7 /* RedBeanApp.swift */,
+				6324367F2AEFC846007DDDC7 /* ContentView.swift */,
+				632436812AEFC846007DDDC7 /* Item.swift */,
+				632436832AEFC848007DDDC7 /* Assets.xcassets */,
+				632436882AEFC848007DDDC7 /* RedBean.entitlements */,
+				632436892AEFC848007DDDC7 /* Info.plist */,
+				632436852AEFC848007DDDC7 /* Preview Content */,
+			);
+			path = RedBean;
+			sourceTree = "<group>";
+		};
+		632436852AEFC848007DDDC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				632436862AEFC848007DDDC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		632436912AEFC848007DDDC7 /* RedBeanTests */ = {
+			isa = PBXGroup;
+			children = (
+				632436922AEFC848007DDDC7 /* RedBeanTests.swift */,
+			);
+			path = RedBeanTests;
+			sourceTree = "<group>";
+		};
+		6324369B2AEFC848007DDDC7 /* RedBeanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6324369C2AEFC848007DDDC7 /* RedBeanUITests.swift */,
+				6324369E2AEFC848007DDDC7 /* RedBeanUITestsLaunchTests.swift */,
+			);
+			path = RedBeanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632436792AEFC846007DDDC7 /* RedBean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632436A22AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBean" */;
+			buildPhases = (
+				632436762AEFC846007DDDC7 /* Sources */,
+				632436772AEFC846007DDDC7 /* Frameworks */,
+				632436782AEFC846007DDDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBean;
+			productName = RedBean;
+			productReference = 6324367A2AEFC846007DDDC7 /* RedBean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6324368D2AEFC848007DDDC7 /* RedBeanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632436A52AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBeanTests" */;
+			buildPhases = (
+				6324368A2AEFC848007DDDC7 /* Sources */,
+				6324368B2AEFC848007DDDC7 /* Frameworks */,
+				6324368C2AEFC848007DDDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632436902AEFC848007DDDC7 /* PBXTargetDependency */,
+			);
+			name = RedBeanTests;
+			productName = RedBeanTests;
+			productReference = 6324368E2AEFC848007DDDC7 /* RedBeanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		632436972AEFC848007DDDC7 /* RedBeanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632436A82AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBeanUITests" */;
+			buildPhases = (
+				632436942AEFC848007DDDC7 /* Sources */,
+				632436952AEFC848007DDDC7 /* Frameworks */,
+				632436962AEFC848007DDDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6324369A2AEFC848007DDDC7 /* PBXTargetDependency */,
+			);
+			name = RedBeanUITests;
+			productName = RedBeanUITests;
+			productReference = 632436982AEFC848007DDDC7 /* RedBeanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632436722AEFC846007DDDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					632436792AEFC846007DDDC7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6324368D2AEFC848007DDDC7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 632436792AEFC846007DDDC7;
+					};
+					632436972AEFC848007DDDC7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 632436792AEFC846007DDDC7;
+					};
+				};
+			};
+			buildConfigurationList = 632436752AEFC846007DDDC7 /* Build configuration list for PBXProject "RedBean" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632436712AEFC846007DDDC7;
+			productRefGroup = 6324367B2AEFC846007DDDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632436792AEFC846007DDDC7 /* RedBean */,
+				6324368D2AEFC848007DDDC7 /* RedBeanTests */,
+				632436972AEFC848007DDDC7 /* RedBeanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632436782AEFC846007DDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632436872AEFC848007DDDC7 /* Preview Assets.xcassets in Resources */,
+				632436842AEFC848007DDDC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6324368C2AEFC848007DDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632436962AEFC848007DDDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632436762AEFC846007DDDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632436802AEFC846007DDDC7 /* ContentView.swift in Sources */,
+				632436822AEFC846007DDDC7 /* Item.swift in Sources */,
+				6324367E2AEFC846007DDDC7 /* RedBeanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6324368A2AEFC848007DDDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632436932AEFC848007DDDC7 /* RedBeanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632436942AEFC848007DDDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6324369F2AEFC848007DDDC7 /* RedBeanUITestsLaunchTests.swift in Sources */,
+				6324369D2AEFC848007DDDC7 /* RedBeanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632436902AEFC848007DDDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632436792AEFC846007DDDC7 /* RedBean */;
+			targetProxy = 6324368F2AEFC848007DDDC7 /* PBXContainerItemProxy */;
+		};
+		6324369A2AEFC848007DDDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632436792AEFC846007DDDC7 /* RedBean */;
+			targetProxy = 632436992AEFC848007DDDC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		632436A02AEFC848007DDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		632436A12AEFC848007DDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632436A32AEFC848007DDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedBean/RedBean.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBean/Preview Content\"";
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedBean/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632436A42AEFC848007DDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedBean/RedBean.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBean/Preview Content\"";
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedBean/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		632436A62AEFC848007DDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBean";
+			};
+			name = Debug;
+		};
+		632436A72AEFC848007DDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBeanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBean.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RedBean";
+			};
+			name = Release;
+		};
+		632436A92AEFC848007DDDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBean;
+			};
+			name = Debug;
+		};
+		632436AA2AEFC848007DDDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4823B5JB69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = david.RedBeanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632436752AEFC846007DDDC7 /* Build configuration list for PBXProject "RedBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632436A02AEFC848007DDDC7 /* Debug */,
+				632436A12AEFC848007DDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632436A22AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632436A32AEFC848007DDDC7 /* Debug */,
+				632436A42AEFC848007DDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632436A52AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBeanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632436A62AEFC848007DDDC7 /* Debug */,
+				632436A72AEFC848007DDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632436A82AEFC848007DDDC7 /* Build configuration list for PBXNativeTarget "RedBeanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632436A92AEFC848007DDDC7 /* Debug */,
+				632436AA2AEFC848007DDDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632436722AEFC846007DDDC7 /* Project object */;
+}
